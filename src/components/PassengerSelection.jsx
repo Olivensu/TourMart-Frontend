@@ -36,7 +36,7 @@ export const PassengerSelection = () => {
   }, []);
 
   return (
-    <div className="relative mt-8">
+    <div className="relative md:mt-8">
       <label htmlFor="traveler-input" className="text-sm text-gray-500 font-bold flex">
         Travelers and Class<img className='w-6 h-6 ml-3' src={profile} alt="" />
       </label>

@@ -34,7 +34,7 @@ export const Arrival = () => {
   
     return (
       <div className='m-2'>
-        <div className="relative mx-auto mt-8">
+        <div className="relative mx-auto md:mt-8">
         <label htmlFor="flight-input" className=" text-gray-500 text-sm font-bold flex">
           Arrival <img className='w-6 ml-3' src={arrival} alt="" />
           <div className='w-7'>
